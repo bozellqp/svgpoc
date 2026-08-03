@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:html="http://www.w3.org/1999/xhtml" width="1400" height="1000">
+<style type="text/css">@import url("https://raw.githubusercontent.com/bozellqp/svgpoc/main/st.css");</style>
+<rect width="1400" height="1000" fill="#ffffff"/>
+
+<text x="20" y="60" font-family="monospace" font-size="40" fill="#000">BASE-OK</text>
+
+<image x="20" y="90" width="520" height="90" xlink:href="https://raw.githubusercontent.com/bozellqp/svgpoc/main/nested.png"/>
+
+<foreignObject x="20" y="200" width="1200" height="90">
+  <html:div style="font-family:monospace;font-size:40px;color:#000">FOREIGN-OK</html:div>
+</foreignObject>
+
+<g transform="translate(20,330)">
+  <use xlink:href="https://raw.githubusercontent.com/bozellqp/svgpoc/main/frag.svg#g1"/>
+</g>
+
+<text class="hid" x="20" y="450" font-family="monospace" font-size="40" fill="#ffffff">CSSIMPORT-OK</text>
+
+<text id="s" x="20" y="530" font-family="monospace" font-size="40" fill="#000"></text>
+<script type="text/javascript">
+  document.getElementById('s').textContent = 'SCRIPT-OK';
+</script>
+
+<image x="20" y="580" width="520" height="90" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MjAiIGhlaWdodD0iOTAiPjx0ZXh0IHg9IjAiIHk9IjYwIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjQwIiBmaWxsPSIjMDAwIj5EQVRBVVJJLU9LPC90ZXh0Pjwvc3ZnPg=="/>
+
+<text x="20" y="720" font-family="monospace" font-size="40" fill="#000">END-OK</text>
+</svg>
