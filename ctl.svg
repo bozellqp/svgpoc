@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="300">
+<rect width="900" height="300" fill="#ffffff"/>
+<text x="20" y="80" font-family="monospace" font-size="40" fill="#000000">SVGTEXT-CONTROL-OK</text>
+<text x="20" y="160" font-family="monospace" font-size="30" fill="#000000">rendered by converter</text>
+</svg>
