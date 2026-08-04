@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>t</title></head><body><h1>page-header</h1><svg xmlns="http://www.w3.org/2000/svg" width="900" height="200"><text x="20" y="120" font-size="60" fill="#000">INLINESVG-OK</text></svg><p>page-footer-text</p></body></html>
