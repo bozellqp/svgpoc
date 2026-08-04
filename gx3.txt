@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+X-Header: junk
+leading garbage bytes 12345
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200"><text x="20" y="120" font-size="60" fill="#000">MIDSVG-OK</text></svg>trailing
